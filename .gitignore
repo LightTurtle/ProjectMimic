@@ -1,0 +1,69 @@
+# Data files (often large!)
+data/raw/
+data/processed/
+*.csv
+*.json
+*.jsonl
+*.txt
+*.pkl
+*.pickle
+
+# Model files (too big for Git)
+models/saved/
+models/checkpoints/
+*.pt
+*.pth
+*.h5
+*.model
+*.bin
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# Jupyter Notebooks (checkpoints)
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiment outputs
+results/
+logs/
+wandb/
+mlruns/
+
+# Large temporary files
+*.log
+*.out
