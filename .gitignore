@@ -4,9 +4,12 @@ data/processed/
 *.csv
 *.json
 *.jsonl
-*.txt
 *.pkl
 *.pickle
+# Ignore all txt files (training data)
+*.txt≈
+# BUT allow requirements.txt (essential for setup)
+!requirements.txt
 
 # Model files (too big for Git)
 models/saved/
